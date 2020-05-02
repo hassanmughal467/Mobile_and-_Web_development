@@ -1,0 +1,157 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.9;
+  color: #666666;
+}
+header {
+  background-color: #316dc3;
+}
+
+.btn-header {
+  font-size: 11px;
+  padding: 5px 10px;
+  color: #427900;
+}
+
+li a {
+  padding: 8px 16x 8px 16px;
+}
+
+li a {
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+li a:hover {
+  background-color: #316dc3;
+  color: white !important;
+  border-radius: 50px;
+}
+
+p {
+  text-align: justify;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+.title-icon {
+  margin: 0 auto;
+  max-width: 160px;
+  position: relative;
+}
+
+.title-icon::before {
+  content: '';
+  height: 2px;
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  width: 36px;
+  background: #427900;
+}
+
+.title-icon::after {
+  content: '';
+  height: 2px;
+  left: 10px;
+  position: absolute;
+  top: 30px;
+  width: 36px;
+  background: #427900;
+}
+
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#upcoming_project .title-project {
+  font-family: serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(49, 109, 195);
+  margin-bottom: 40px;
+}
+
+#upcoming_project h5 {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(49, 109, 195);
+}
+
+#upcoming_project .border-box {
+  border: 1px solid rgb(238, 238, 238);
+}
+
+.line-bottom {
+  color: rgb(49, 109, 195);
+  font-family: serif;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 4px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+#img-footer h1 {
+  font-family: serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#footer {
+  background-color: rgb(37, 39, 46);
+}
+#footer .font-clr {
+  color: rgb(187, 187, 187);
+}
+
+#footer .icon-clr {
+  color: rgb(66, 121, 0);
+}
+#footer li {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.useful-link {
+  border-bottom: 0.5px solid rgb(97, 93, 93);
+  margin-bottom: 23px;
+}
+
+#footer h5 {
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.links-ul {
+  margin-top: 20px;
+  margin-left: -40px;
+}
+#footer li {
+  margin-right: 10px;
+}
+.theme-color a {
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 100px;
+  /* height: 30px;
+    line-height: 30px; */
+  /* width: 30px; */
+  color: white;
+  background-color: rgb(49, 109, 195);
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-view {
+    margin-top: 20px;
+  }
+  .box-resp {
+    margin-top: 8px;
+  }
+}
