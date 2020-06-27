@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saylani Form</title>
+    <link rel="stylesheet" href="syle.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./download.png" alt="logo" />
+	 <br/>
+	 <br/>
+	 <br/>
+	 <br/>
+	 <br/>
+	 <br/>
+      <h1>STUDENT REGISTRATION FORM</h1>
+    </header>
+
+    <div class="form">
+      <form>
+        <label for="Name" class="labels">FIRST NAME </label>
+        <input
+          type="text"
+          name="name"
+          id="Name"
+          placeholder="Enter First Name"
+        />
+        <small>(max 30 character a-z to A-Z)</small>
+        <br /><br />
+        <label for="Name" class="labels">LAST NAME </label>
+        <input
+          type="text"
+          name="name"
+          id="Name"
+          placeholder="Enter First Name"
+        />
+        <small>(max 30 character a-z to A-Z)</small>
+        <br /><br />
+        <label for="birthday" class="labels">DATE OF BIRTH</label>
+        <input type="date" id="birthday" name="birthday" />
+        <br /><br />
+        <label for="email" class="labels">EMAIL ID</label>
+        <input type="email" id="email" placeholder="Email Id" />
+        <br /><br />
+        <label for="cellno" class="labels">CONTACT NO</label>
+        <input type="numeric" id="cellno" placeholder="Contact Number" />
+        <small>(10 digit number)</small>
+        <br /><br />
+        <label for="gender" class="labels">GENDER</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>&nbsp;
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+        <br /><br />
+        <label for="address" class="labels" style="vertical-align: middle;"
+          >ADDRESS</label
+        >
+        <textarea
+          name="address"
+          id="address"
+          cols="30"
+          rows="6"
+          style="vertical-align: middle;"
+        ></textarea>
+        <br /><br />
+        <label for="city" class="labels">CITY </label>
+        <input
+          type="text"
+          name="city"
+          id="city"
+          placeholder="Enter Your City"
+        />
+        <small>(max 30 character a-z to A-Z)</small>
+        <br /><br />
+        <label for="pincode" class="labels">PINCODE </label>
+        <input
+          type="text"
+          name="pincode"
+          id="pincode"
+          placeholder="Enter Pincode"
+        />
+        <small>(6 digit picode)</small>
+        <br /><br />
+        <label for="state" class="labels">STATE </label>
+        <input
+          type="text"
+          name="state"
+          id="state"
+          placeholder="Enter Your State"
+        />
+        <small>(max 30 character a-z to A-Z)</small>
+        <br /><br />
+        <label for="country" class="labels">COUNTRY </label>
+        <input
+          type="text"
+          name="country"
+          id="country"
+          placeholder="Enter Your Country"
+        />
+        <br /><br />
+        <label for="hobby" class="labels">HOBBIES</label>
+        <input type="checkbox" id="hob1" value="Bike" />
+        <label for="hob1"> Drawing</label>
+        <input type="checkbox" id="hob2" value="Car" />
+        <label for="hob2"> Singing</label>
+        <input type="checkbox" id="hob3" value="Boat" />
+        <label for="hob3"> Dancing</label>
+        <input type="checkbox" id="hob4" value="Boat" />
+        <label for="hob4"> Sketching</label>
+        <input type="checkbox" id="other" value="Boat" />
+        <label for="other"> others</label>
+        <input type="text" id="other" />
+        <br /><br />
+        <!-- table -->
+        <label for="table" class="labels" style="vertical-align: middle;"
+          >QUALIFICATION</label
+        >
+        <table id="table" class="labels" style="vertical-align: middle;">
+          <tr>
+            <th>S.No</th>
+            <th>Examination</th>
+            <th>Board</th>
+            <th>Percentage</th>
+            <th>Year of passing</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Class X</td>
+            <td><input type="text" width="100%" /></td>
+            <td><input type="text" width="100%" /></td>
+            <td><input type="text" width="100%" /></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Class XII</td>
+            <td><input type="text" width="100%" /></td>
+            <td><input type="text" width="100%" /></td>
+            <td><input type="text" width="100%" /></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Graduation</td>
+            <td><input type="text" width="100%" /></td>
+            <td><input type="text" width="100%" /></td>
+            <td><input type="text" width="100%" /></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Master</td>
+            <td><input type="text" width="100%" /></td>
+            <td><input type="text" width="100%" /></td>
+            <td><input type="text" width="100%" /></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td class="center_align">(10 char max)</td>
+            <td class="center_align">(Upto 2 decimal)</td>
+          </tr>
+        </table>
+        <br /><br />
+        <label for="course" class="labels">COURSE APPLIED FOR</label>
+        <label for="bca">B.Ca</label>
+        <input type="radio" id="bca" name="course" />&nbsp;&nbsp;
+        <label for="bcom">B.Com</label>
+        <input type="radio" id="bcom" name="course" />&nbsp;&nbsp;
+        <label for="bsc">B.Sc</label>
+        <input type="radio" id="bsc" name="course" />&nbsp;&nbsp;
+        <label for="ba">B.A</label>
+        <input type="radio" id="ba" name="course" />
+        <br /><br />
+        <div style="text-align: center;">
+          <input type="reset" value="Reset" style="border-radius: 6px;" />
+          <input
+            type="submit"
+            formaction="confirm.html"
+            value="Submit"
+            style="border-radius: 6px;"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
